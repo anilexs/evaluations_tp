@@ -1,0 +1,94 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+}
+*{
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 1440px;
+    margin: auto;
+    background-color: black;
+}
+header{
+    background-image: url(../img/eggs.jpg);
+    color: white;
+    text-align: center;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin-left: 60px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.hflex{
+    display: flex;
+    width: 96%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+.make{
+    border: 1px solid orange;
+    padding: 10px 5px;
+}
+.welcome{
+    color: yellow;
+    padding-top: 120px;
+}
+.FIASCO{
+    padding-top: 80px;
+}
+.end{
+    padding-top: 200px;
+}
+main{
+    color: white;
+}
+.sec{
+    width: 60%;
+    margin: auto;
+}
+.img1{
+    box-shadow: -10px -10px 0px 10px transparent;
+    padding-top: 30px;
+    padding-left: 30px;
+    border: 1px solid yellow;
+    margin-top: -15px;
+}
+h2{
+    color: yellow;
+}
+.sec1{
+    display: flex;
+}
+.txt1{
+    margin: 90px 0px;
+    margin-left: 50px;
+}
+.yellow{
+        color: yellow;
+}
