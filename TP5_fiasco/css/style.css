@@ -28,6 +28,8 @@ vertical-align: baseline;
 }
 header{
     background-image: url(../img/eggs.jpg);
+    /* background-repeat: no-repeat;
+    height: 620px; */
     color: white;
     text-align: center;
 }
@@ -75,12 +77,17 @@ main{
 .img1{
     box-shadow: -10px -10px 0px 10px transparent;
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 23px;
     border: 1px solid yellow;
     margin-top: -15px;
+    margin-left: 20px;
 }
-h2{
-    color: yellow;
+.img2{
+    box-shadow: -10px -10px 0px 10px transparent;
+    padding-top: 30px;
+    padding-right: 30px;
+    border: 1px solid yellow;
+    margin-top: 15px;
 }
 .sec1{
     display: flex;
@@ -89,6 +96,22 @@ h2{
     margin: 90px 0px;
     margin-left: 50px;
 }
+.txt2{
+    margin: 90px 0px;
+    margin-right: 50px;
+    /* margin-left: -15px; */
+}
 .yellow{
         color: yellow;
+}
+.sec3 {
+    text-align: center;
+    padding-top: 80px;
+}
+.sec3 ul{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
