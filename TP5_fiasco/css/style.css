@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kablammo&display=swap');
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,8 +31,7 @@ vertical-align: baseline;
 }
 header{
     background-image: url(../img/eggs.jpg);
-    /* background-repeat: no-repeat;
-    height: 620px; */
+    min-height: 612px;
     color: white;
     text-align: center;
 }
@@ -102,7 +104,7 @@ main{
     /* margin-left: -15px; */
 }
 .yellow{
-        color: yellow;
+    color: yellow;
 }
 .sec3 {
     text-align: center;
@@ -112,6 +114,86 @@ main{
     text-transform: uppercase;
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.secflex4{
+    width: 70%;
+    margin: auto;
+}
+.sec4{
+    display: flex;
+}
+.sec5{
+    flex-direction: row-reverse;
+    display: flex;
+}
+.sec5txt{
+    direction : rtl;
+    padding-right: 40px;
+}
+.secflex4 img:first-child {
+    padding-right: 40px;
+}
+.sec4v2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.sec4v3{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.sec6{
+    display: flex;
+    /* justify-content: center; */
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+.sec6 div{
+    margin: 40px;
+}
+.reservation{
+    background-image: url(../img/reservation.jpg);
+    min-height: 600px;
+    text-align: center;
+}
+.Recipes{
+    text-align: end;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    min-height: 500px;
+}
+.fontrec{
+    font-size: 15px;
+}
+.txtRec{
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+.sep{
+    text-align: center;
+    margin-right: 30px;
+}
+footer{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    margin-top: -4px;
+    padding-top: 100px;
+    background-image: url(../img/splash.png);
+    background-color: rgb(69, 69, 69);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+footer div{
+    width: 20%;
+}
+footer p{
     padding-top: 50px;
     padding-bottom: 50px;
 }
