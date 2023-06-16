@@ -193,6 +193,10 @@ input{
     padding-top: 45px;
     font-size: 23.5px;
 }
+.Classified{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 select{
     background-color: transparent;
     padding: 15px;
@@ -205,7 +209,8 @@ select{
     background-color:orange;
     color: white;
     border: 0;
-    margin-top: 80px;
+    margin-top: 90px;
+    padding: 10px 50px;
 }
 .Recipes{
     text-align: end;
@@ -227,20 +232,54 @@ select{
     margin-right: 30px;
 }
 footer{
-    display: flex;
-    color: white;
-    justify-content: space-evenly;
-    margin-top: -4px;
-    padding-top: 100px;
     background-image: url(../img/splash.png);
     background-color: rgb(69, 69, 69);
     background-repeat: no-repeat;
     background-position-x: right;
+    background-position-y: bottom;
+    padding-top: 100px;
+    margin-top: -4px;
 }
-footer div{
+.ftr{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    margin-top: -4px;
+}
+.ftr div{
     width: 20%;
 }
-footer p{
+.ftr p{
     padding-top: 50px;
     padding-bottom: 50px;
+}
+.ftr18{
+    color: white;
+    padding-left: 145px;
+    margin-top: 30px;
+}
+@media (max-width:1440px){
+    
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width:1300px){
+    .sec4v2{
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+}
+    .sec4v3{
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+}
+    .sec4{
+        width: 80%;
+        margin: auto;
+    }
+    .secflex4{
+        display: block;
+    }
 }
