@@ -26,6 +26,9 @@ body{
 a{
     text-decoration: none;
 }
+.hdrimg2{
+    display: none;
+}
 .contenaire{
     width: 1440px;
     margin: auto;
@@ -121,6 +124,13 @@ figcaption{
     .img{
         width: 50%;
     }
+    .hdrimg2{
+    width: 100%;
+    display: block;
+}
+    .hdrimg1{
+    display: none;
+}
     header img{
     width: 100%;
     height: 400px;
@@ -145,6 +155,9 @@ figcaption{
     header img{
     display: none;
     }
+    .hdrimg2{
+    display: none;
+}
     img{
     width: 100%;
 }
