@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,700");
+
+header{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+body{
+    font-family: Comorant Garamont;
+    margin: auto;
+    /* width: 1024px; 
+    margin: auto; */
+}
+p{
+    margin: 0;
+}
+.city{
+    color: red;
+    font-size: 10px;
+}
+ul, a, li{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+main{
+    width: 50%;
+    margin: auto;
+}
+.as{
+    padding-top: 30px;
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.p{
+    align-items: center;
+}
+section{
+    width: 100%;
+    align-items: center;
+}
+.end{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.demi{
+    height: 50%;
+    padding-left: 80px;
+}
+.demi2{
+    height: 50%;
+}
+.demi3{
+    height: 50%;
+    padding-left: 50px;
+}
+.img{
+    width: 100%;
+}
+span{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+footer{
+    width: 30%;
+    margin: auto;   
+}
+.ftd{
+    justify-content: center;
+}
+footer h5.titre {
+    color: black;
+    font-size: 1rem;
+    padding: 3.5rem 0;
+    background-image: url(../img/plan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

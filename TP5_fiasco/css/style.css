@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kablammo&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+}
+*{
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 1440px;
+    margin: auto;
+    background-color: black;
+}
+header{
+    background-image: url(../img/eggs.jpg);
+    min-height: 612px;
+    color: white;
+    text-align: center;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin-left: 60px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.hflex{
+    display: flex;
+    width: 96%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+.make{
+    border: 1px solid orange;
+    padding: 10px 5px;
+}
+.make:hover{
+    color: yellow;
+    transition: 0.5s;
+}
+.welcome{
+    color: yellow;
+    padding-top: 75px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.font{
+    font-family: 'Dancing Script', cursive;
+}
+.FIASCO{
+    padding-top: 90px;
+    font-size: 70px;
+}
+.end{
+    padding-top: 80px;
+    font-size: 31px;
+}
+main{
+    color: white;
+}
+.sec{
+    width: 60%;
+    margin: auto;
+}
+.img1{
+    box-shadow: -10px -10px 0px 10px transparent;
+    padding-top: 30px;
+    padding-left: 23px;
+    border: 1px solid yellow;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+.img2{
+    box-shadow: -10px -10px 0px 10px transparent;
+    padding-top: 30px;
+    padding-right: 30px;
+    border: 1px solid yellow;
+    margin-top: 15px;
+}
+.sec1{
+    display: flex;
+}
+.txt1{
+    margin: 90px 0px;
+    margin-left: 50px;
+}
+.txt2{
+    margin: 90px 0px;
+    margin-right: 50px;
+    /* margin-left: -15px; */
+}
+.menu{
+    font-size: 30px;
+}
+.yellow{
+    color: yellow;
+}
+.sec3 {
+    text-align: center;
+    padding-top: 80px;
+}
+.sec3 ul{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.dollar{
+    color: orange;
+    font-size: 30px;
+}
+.secflex4{
+    width: 66.5%;
+    margin: auto;
+}
+.sec4{
+    display: flex;
+}
+.sec5{
+    flex-direction: row-reverse;
+    display: flex;
+}
+.sec5txt{
+    direction : rtl;
+    padding-right: 40px;
+}
+.secflex4 img:first-child {
+    padding-right: 40px;
+}
+.sec4v2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.sec4v3{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.sec6{
+    display: flex;
+    /* justify-content: center; */
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+.sec6 div{
+    margin: 40px;
+}
+.reservation{
+    background-image: url(../img/reservation.jpg);
+    min-height: 600px;
+    text-align: center;
+    padding-top: 46px;
+}
+.reserv{
+    font-size: 50px;
+}
+input{
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: gray;
+}
+.makeReserv{
+    padding-top: 45px;
+    font-size: 23.5px;
+}
+.Classified{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+select{
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: grey;
+    margin: 0px 20px;
+}
+.sub{
+    background-color:orange;
+    color: white;
+    border: 0;
+    margin-top: 90px;
+    padding: 10px 50px;
+}
+.Recipes{
+    text-align: end;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    min-height: 500px;
+}
+.fontrec{
+    font-size: 15px;
+}
+.txtRec{
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+.sep{
+    text-align: center;
+    margin-right: 30px;
+}
+footer{
+    background-image: url(../img/splash.png);
+    background-color: rgb(69, 69, 69);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    padding-top: 100px;
+    margin-top: -4px;
+}
+.ftr{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    margin-top: -4px;
+}
+.ftr div{
+    width: 20%;
+}
+.ftr p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ftr18{
+    color: white;
+    padding-left: 145px;
+    margin-top: 30px;
+}
+@media (max-width:1440px){
+    
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width:1300px){
+    .sec4v2{
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+}
+    .sec4v3{
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+}
+    .sec4{
+        width: 80%;
+        margin: auto;
+    }
+    .secflex4{
+        display: block;
+    }
+}
