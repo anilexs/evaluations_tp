@@ -53,7 +53,7 @@ a{
 .enfr{
     color: gray;
 }
-.hdrImg1{
+.hdrImg1{ 
     text-align: center;
     text-transform: uppercase;
     position: relative;
@@ -61,12 +61,12 @@ a{
 .hdrImg2{
     position: absolute;
     top: 250px;
-    left: 570px;
+    left: 570px;    
 }
 .hdrImg3{
     position: absolute;
-    top: 80.2%;
-    left: 82%;
+    bottom: 0;
+    right: 0;
 }
 .sec1{
     width: 800px;
@@ -87,13 +87,34 @@ a{
 }
 .sec2{
     padding-top: 30px;
-    width: 1300px;
+    width: 1200px;
     margin: auto;
     color: black;
     display: flex;
     position: relative;
+    justify-content: space-between;
+    padding-right: 160px;
 }
 .metro{
     height: 20px;
     /* position: absolute; */
+}
+.partenaires{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+footer{
+    padding: 80px 0px 20px 0px;
+    background-color: black;
+}
+.ftrdiv{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 160px;
+    align-items: center;
 }
