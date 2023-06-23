@@ -83,8 +83,9 @@ nav a:active{
     position: absolute;
     /* top: 250px;
     left: 570px;     */
+    width: 40%;
     bottom: 18%;
-    right: 27.5%;
+    right: 29%;
 }
 .hdrImg3{
     position: absolute;
